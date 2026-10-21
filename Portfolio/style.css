@@ -1,0 +1,544 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+html{
+    scroll-behavior: smooth;
+}
+header {
+    background-color: #222;
+    background-image: url("QXRqnIAV.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    aspect-ratio: 1254 / 705;
+    background-position: center ;  
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #222;
+    opacity: 0.6;
+    z-index: 1;
+}
+.nav-bar{
+    
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    display: flex;
+    gap: 50px;
+    position: relative;
+    z-index: 2;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+}
+
+
+
+.nav-bar a{
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+.text{
+
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+
+}
+
+
+
+
+#hello{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 200;
+    font-size: 60px;
+    color: #ffffff;
+    line-height: 1.2;
+    letter-spacing: normal;
+    
+}
+
+
+.text h1{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 80px;
+    line-height: 1.2;
+    letter-spacing: normal;
+
+}
+
+#Rezume{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 1.7;
+    letter-spacing: 3.2px;
+
+}
+
+.portfolio{
+    background-color: #222;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+    
+}
+.featured-projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 50px;
+}
+.card{
+    margin-top: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 300px;
+    
+
+
+}
+
+.card img{
+    
+    height: 250px;
+    width: 250px;
+    
+}
+
+.featured-nav{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.featured-nav a{
+    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    text-decoration: none;
+    color:  rgba(255, 255, 255, 0.4);
+}
+
+.card-content{
+    margin-top: 15px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color: #222;
+}
+
+.resume{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    background-color: #222;
+    align-items: center;
+    justify-content: center;
+    
+    margin-top: 20px;
+
+}
+
+
+.Cards{
+    padding: 25px;
+    /* height: 180px; */
+    height: auto;
+    width: 420px;
+    border-radius: 7px;
+    color: white;
+    background-color: #333333;
+}
+
+.education{
+    margin-top: 25px;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.experience{
+    margin-top: 25px;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+
+}
+
+
+.heading-light{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 250;
+    color: #ffffff;
+    font-size: 28px;
+}
+.heading-bold{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 28px;
+}
+
+
+.about{
+    background-color: #222;
+    padding: 80px;
+}
+.about-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+.about-image img{
+    width: 380px;
+    height: 380px;
+    object-fit: cover;
+    display: block;
+}
+.about-text{
+    max-width: 400px;
+}
+.about-intro{
+    margin-top: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.7;
+}
+.about-desc{
+    margin-top: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.4);
+    line-height: 1.7;
+}
+.about-buttons{
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+}
+.btn{
+    padding: 12px 28px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+.btn-primary{
+    background-color: #bac964;
+    color: #222;
+}
+.btn-secondary{
+    background-color: #555555;
+    color: #ffffff;
+}
+
+.contact{
+    background-color: #222;
+    padding: 80px;
+}
+.contact-content{
+    display: flex;
+    gap: 60px;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: flex-start;
+}
+.contact-form, .contact-details{
+    width: 400px;
+}
+.contact-subheading{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.form-input, .form-textarea{
+    width: 100%;
+    background-color: #333333;
+    border: none;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 15px;
+    color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+}
+.form-textarea{
+    min-height: 160px;
+    resize: vertical;
+}
+.form-input::placeholder,
+.form-textarea::placeholder{
+    color: rgba(255, 255, 255, 0.4);
+}
+.detail-item{
+    margin-bottom: 20px;
+}
+.detail-label{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #bac964;
+    margin-bottom: 5px;
+}
+.detail-value{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.6;
+}
+
+
+.site-footer{
+    background-color: #222;
+    text-align: center;
+    padding-bottom: 60px;
+}
+.footer-text{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.4);
+    margin-bottom: 20px;
+}
+.footer-text a{
+    color: #bac964;
+    text-decoration: none;
+}
+.heart{
+    color: #e25555;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.social-icons a{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #bac964;
+    text-decoration: none;
+}
+
+
+#portfolio, 
+#resume, 
+#about, 
+#contact{
+    scroll-margin-top:80px;
+} 
+
+
+
+@media (max-width: 1024px) {
+  .portfolio {
+    padding: 60px 30px;
+  }
+
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    padding: 30px 0;
+  }
+
+  .resume {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .education,
+  .experience {
+    width: 100%;
+    align-items: center;
+  }
+
+  .about,
+  .contact {
+    padding: 60px 30px;
+  }
+
+  .about-content {
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .about-text {
+    max-width: 600px;
+  }
+
+  .about-buttons {
+    justify-content: center;
+  }
+
+  .contact-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+}
+
+/* Tablets in portrait and large phones */
+@media (max-width: 768px) {
+  .nav-bar {
+    gap: 22px;
+    flex-wrap: wrap;
+    font-size: 13px;
+    padding: 0 15px;
+  }
+
+  #hello {
+    font-size: 36px;
+  }
+
+  .text h1 {
+    font-size: 46px;
+    text-align: center;
+  }
+
+  #Rezume {
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+
+  .featured-nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .Cards {
+    width: 100%;
+    max-width: 420px;
+  }
+
+  .about-image img {
+    width: 100%;
+    max-width: 380px;
+    height: auto;
+    aspect-ratio: 1 / 1;
+  }
+}
+
+/* Phones */
+@media (max-width: 520px) {
+  .nav-bar {
+    gap: 14px;
+    font-size: 11px;
+  }
+
+  #hello {
+    font-size: 28px;
+  }
+
+  .text h1 {
+    font-size: 36px;
+  }
+
+  .portfolio {
+    padding: 50px 20px;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+    padding: 20px 0;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .card img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+  }
+
+  .Cards {
+    padding: 20px;
+  }
+
+  .about,
+  .contact {
+    padding: 50px 20px;
+  }
+
+  .about-buttons {
+    flex-wrap: wrap;
+  }
+
+  .contact-form,
+  .contact-details {
+    width: 100%;
+  }
+
+  .site-footer {
+    padding: 0 20px 40px;
+  }
+
+  #portfolio,
+  #resume,
+  #about,
+  #contact {
+    scroll-margin-top: 20px;
+  }
+}
